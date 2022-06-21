@@ -3,11 +3,11 @@ import socket
 import mysql.connector
   
 mydb = mysql.connector.connect(
-          host="10.10.10.5",
-            user="svc_Linux",
-              password="Password1234!",
-                database="PSI5120"
-                )
+    host="10.10.10.6",
+    user="svc_Linux",
+    password="Password1234!",
+    database="PSI5120"
+    )
 
 mycursor = mydb.cursor()
 mycursor.execute("SELECT * FROM Alunos")
