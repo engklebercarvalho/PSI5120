@@ -1,5 +1,3 @@
-###ALTERAÇÃO AULA CLOUDSEC###
-
 terraform {
   required_version = ">= 0.12"
 
